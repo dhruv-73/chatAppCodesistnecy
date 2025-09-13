@@ -9,8 +9,6 @@ const userRouter=require('./routes/users.routes');
 const messageRouter=require('./routes/message.routes');
 
 
-const __dirname=path.resolve();
-
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
